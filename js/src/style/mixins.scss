@@ -1,0 +1,16 @@
+@mixin v-center(){
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+@mixin h-center(){
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+@mixin v-h-center(){
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
