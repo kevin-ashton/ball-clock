@@ -19,7 +19,10 @@ module.exports = {
         test: /\.scss/,
         exclude: /node_modules/,
         loader: 'style-loader!css-loader!sass-loader'
-      },
+      }
     ]
+  },
+  devServer: {
+    contentBase: './src'
   }
 };

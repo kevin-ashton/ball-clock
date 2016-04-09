@@ -117,7 +117,3 @@ var viewConfighexadecimal = {
 };
 var clockCompHexadecimal = new ClockComp(clockhexadecimal, viewConfighexadecimal);
 m.mount(document.getElementById('clockhexadecimal'), clockCompHexadecimal.getComponent());
-
-//Check data similar to react.props
-//Checks if funnels are correctly put together
-//Data is mutable (can get the original array)
