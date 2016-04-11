@@ -19,10 +19,15 @@ Steps to run:
 
 ### Mithril Experiment
 
-I've been aware of [mithrilJs](http://mithril.js.org/) for a while decided to implement a simple visualization. This can be accessed [here](https://kevin-ashton.github.io/ball-clock/js/src/) or the site can be run locally by running `npm run mithril`.
+I've been aware of [mithrilJs](http://mithril.js.org/) for a while decided to implement a simple visualization. This can be accessed [here](https://kevin-ashton.github.io/ball-clock/js/src/) or the site can be run locally by running `npm run mithril-watch` and `npm run mithril-server`.
 
 ### Notes
 
 * All javascript is written in ES6 and should be transpiled with [babeljs](https://babeljs.io/). Hence, `babel-node` is used within package.json scripts.
 
-* Generally speaking errors, data validation, and many unit tests (such as those generally expected to test the behavior of models) have been intentionally excluded.
+* Generally speaking errors, data validation, and many unit tests (such as those generally expected to test the behavior of models) have been intentionally excluded. 
+
+### Todo
+
+* Implement in Go
+* Add full ball path to the mithril simulation.  
